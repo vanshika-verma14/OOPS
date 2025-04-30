@@ -11,5 +11,4 @@ public class oops_lab2 {
    public static double tri_area(double base, double height){
      return 0.5 * base * height;
    }
-
 }
