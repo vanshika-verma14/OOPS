@@ -1,0 +1,3 @@
+// private variable in main class , method to print the private variable
+nested class
+

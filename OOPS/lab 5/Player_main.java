@@ -1,5 +1,5 @@
 //Create a Java program with a Player class and derive three subclasses: Cricket_Player, Football_Player, and Hockey_Player. Implement attributes such as name, age, and position, and methods like play() and train() to represent these players. 
- public class player {
+  class player {
     String name ;
     int age ;
     String position ;
@@ -20,9 +20,10 @@
 
 }
 
-public class Cricket_Player extends player{
+class Cricket_Player extends player{
     public Cricket_Player(String name, int age, String position) {
         super(name, age, position);
+       super.play();
     }
 }
   
